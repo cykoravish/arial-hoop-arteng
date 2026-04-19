@@ -1,19 +1,19 @@
-"use client"
+"use client";
 
-import { useLanguage } from "@/lib/language-context"
-import Image from "next/image"
+import { useLanguage } from "@/lib/language-context";
+import Image from "next/image";
 
 export function Hero() {
-  const { t } = useLanguage()
+  const { t } = useLanguage();
 
   const handleBookClick = () => {
-    const el = document.querySelector("#contact")
-    if (el) el.scrollIntoView({ behavior: "smooth" })
-  }
+    const el = document.querySelector("#contact");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center md:justify-start overflow-hidden"
       aria-label="Hero"
     >
       {/* Background image */}
@@ -22,12 +22,12 @@ export function Hero() {
           src="/images/hero-bg.jpg"
           alt="Aerial hoop performer suspended gracefully in the air"
           fill
-          className="object-cover object-center"
+          className="object-cover object-center md:object-right"
           priority
           sizes="100vw"
         />
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-background/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent md:from-black/85 md:via-black/60" />{" "}
         {/* Bottom fade */}
         <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-background to-transparent" />
       </div>
@@ -40,22 +40,20 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+      <div className="relative z-10 px-6 md:px-12 lg:px-20 max-w-5xl mx-auto md:mx-0 text-center md:text-left">
+        {" "}
         {/* Tagline */}
         <p className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8 animate-fade-in">
           {t.hero.tagline}
         </p>
-
         {/* Heading */}
-        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light leading-none text-balance text-foreground mb-8">
+        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light leading-none text-balance text-foreground mb-8 max-w-3xl">
           {t.hero.heading}
         </h1>
-
         {/* Subheading */}
-        <p className="font-body text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed text-pretty">
+        <p className="font-body text-base md:text-lg text-muted-foreground mb-12 leading-relaxed text-pretty max-w-xl md:mx-0 mx-auto">
           {t.hero.subheading}
         </p>
-
         {/* CTA */}
         <button
           onClick={handleBookClick}
@@ -65,12 +63,6 @@ export function Hero() {
           {t.hero.cta}
         </button>
       </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 z-10">
-        <span className="font-body text-xs tracking-[0.2em] uppercase text-muted-foreground">{t.hero.scroll}</span>
-        <div className="w-px h-12 bg-gold/40 animate-pulse" />
-      </div>
     </section>
-  )
+  );
 }
