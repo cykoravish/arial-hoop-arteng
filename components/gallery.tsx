@@ -10,7 +10,7 @@ const galleryItems = [
   { src: "/images/gallery-3.jpg", alt: "Aerial hoop performance at a bachelorette party", type: "image", span: "col-span-1 row-span-1" },
   { src: "/images/gallery-4.jpg", alt: "Lyra performer at a corporate gala dinner", type: "image", span: "col-span-1 row-span-1" },
   { src: "/images/gallery-5.jpg", alt: "Aerial artist in stunning costume", type: "image", span: "col-span-1 row-span-2" },
-  { src: "/images/gallery-6.jpg", alt: "Aerial hoop performer silhouette", type: "image", span: "col-span-1 row-span-1" },
+  { src: "/images/hero-bg.jpg", alt: "Aerial hoop performer silhouette", type: "image", span: "col-span-1 row-span-1" },
 ]
 
 export function Gallery() {
