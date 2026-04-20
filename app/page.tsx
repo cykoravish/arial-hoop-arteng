@@ -8,7 +8,6 @@ import { WhyChooseMe } from "@/components/why-choose-me";
 import { Testimonials } from "@/components/testimonials";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
-import { ScrollReveal } from "@/components/scroll-reveal";
 
 export default function Home() {
   return (
