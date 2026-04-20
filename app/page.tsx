@@ -16,24 +16,18 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <ScrollReveal>
-          <About />
-        </ScrollReveal>
-        <ScrollReveal>
-          <Services />
-        </ScrollReveal>
-        <ScrollReveal>
-          <Gallery />
-        </ScrollReveal>
-        <ScrollReveal>
-          <WhyChooseMe />
-        </ScrollReveal>
-        <ScrollReveal>
-          <Testimonials />
-        </ScrollReveal>
-        <ScrollReveal>
-          <Contact />
-        </ScrollReveal>
+
+        <About />
+
+        <Services />
+
+        <Gallery />
+
+        <WhyChooseMe />
+
+        <Testimonials />
+
+        <Contact />
       </main>
       <Footer />
     </LanguageProvider>
