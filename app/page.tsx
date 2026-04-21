@@ -8,6 +8,7 @@ import { WhyChooseMe } from "@/components/why-choose-me";
 import { Testimonials } from "@/components/testimonials";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
+import { TailoredServices } from "@/components/tailored-services";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
 
         <Services />
+        <TailoredServices />
 
         <Gallery />
 

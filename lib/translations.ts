@@ -51,6 +51,8 @@ export const translations = {
             "Glamorous costumes",
             "Photo opportunities",
           ],
+          exclusiveLine:
+            "Exclusive personalized experiences available upon request",
         },
         {
           tag: "Private Events",
@@ -77,6 +79,15 @@ export const translations = {
           ],
         },
       ],
+      customLine: "Fully customizable to your preferences",
+    },
+    tailored: {
+      title: "Tailored Experiences",
+      line1: "Every performance is unique.",
+      line2:
+        "After booking your show, additional personalized elements can be arranged to create a truly unforgettable experience.",
+      line3:
+        "All details are discussed privately to ensure comfort, discretion, and the perfect atmosphere.",
     },
     gallery: {
       label: "Gallery",
@@ -157,7 +168,8 @@ export const translations = {
         date: "Event Date",
         message: "Tell me about your event",
         messagePlaceholder:
-          "Describe your event, expected number of guests, venue, and any special requests...",
+          "Tell me about your event and any special preferences you may have...",
+        customNote: "Custom experiences available",
         submit: "Send Enquiry",
         sending: "Sending...",
         successHeading: "Message Sent",
@@ -239,6 +251,8 @@ export const translations = {
             "Costumes glamour",
             "Opportunités photos",
           ],
+          exclusiveLine:
+            "Expériences exclusives et personnalisées disponibles sur demande",
         },
         {
           tag: "Événements Privés",
@@ -265,6 +279,15 @@ export const translations = {
           ],
         },
       ],
+      customLine: "Entièrement personnalisable selon vos préférences",
+    },
+    tailored: {
+      title: "Expériences sur mesure",
+      line1: "Chaque performance est unique.",
+      line2:
+        "Après la réservation de votre spectacle, des éléments personnalisés supplémentaires peuvent être organisés pour créer une expérience inoubliable.",
+      line3:
+        "Tous les détails sont discutés en privé afin de garantir confort, discrétion et une atmosphère parfaite.",
     },
     gallery: {
       label: "Galerie",
@@ -345,7 +368,8 @@ export const translations = {
         date: "Date de l'Événement",
         message: "Parlez-moi de votre événement",
         messagePlaceholder:
-          "Décrivez votre événement, le nombre d'invités attendus, le lieu et toute demande spéciale...",
+          "Parlez-moi de votre événement et de vos préférences particulières...",
+        customNote: "Expériences personnalisées disponibles",
         submit: "Envoyer la Demande",
         sending: "Envoi en cours...",
         successHeading: "Message Envoyé",
@@ -426,6 +450,8 @@ export const translations = {
             "Glamouröse Kostüme",
             "Fotomöglichkeiten",
           ],
+          exclusiveLine:
+            "Exklusive, personalisierte Erlebnisse auf Anfrage verfügbar",
         },
         {
           tag: "Private Events",
@@ -452,6 +478,15 @@ export const translations = {
           ],
         },
       ],
+      customLine: "Vollständig anpassbar nach Ihren Wünschen",
+    },
+    tailored: {
+      title: "Maßgeschneiderte Erlebnisse",
+      line1: "Jede Performance ist einzigartig.",
+      line2:
+        "Nach der Buchung Ihrer Show können zusätzliche, personalisierte Elemente arrangiert werden, um ein unvergessliches Erlebnis zu schaffen.",
+      line3:
+        "Alle Details werden privat besprochen, um Komfort, Diskretion und die perfekte Atmosphäre zu gewährleisten.",
     },
     gallery: {
       label: "Galerie",
@@ -532,7 +567,8 @@ export const translations = {
         date: "Veranstaltungsdatum",
         message: "Erzählen Sie mir von Ihrem Event",
         messagePlaceholder:
-          "Beschreiben Sie Ihre Veranstaltung, die erwartete Gästezahl, den Veranstaltungsort und besondere Wünsche...",
+          "Erzählen Sie mir von Ihrer Veranstaltung und Ihren besonderen Vorlieben...",
+        customNote: "Individuelle Erlebnisse verfügbar",
         submit: "Anfrage Senden",
         sending: "Wird gesendet...",
         successHeading: "Nachricht Gesendet",
