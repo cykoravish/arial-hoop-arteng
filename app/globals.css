@@ -29,6 +29,7 @@
   --gold-light: oklch(0.88 0.1 80);
   --gold-dark: oklch(0.6 0.12 75);
   --surface: oklch(0.13 0 0);
+  /* --surface-2: oklch(0.18 0 0); */
   --surface-raised: oklch(0.16 0 0);
   --sidebar: oklch(0.13 0 0);
   --sidebar-foreground: oklch(0.96 0.01 80);

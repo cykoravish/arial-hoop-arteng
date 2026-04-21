@@ -5,7 +5,7 @@ import { useLanguage } from "@/lib/language-context";
 export function TailoredServices() {
   const { t } = useLanguage();
   return (
-    <div className="max-w-2xl mx-auto text-center relative z-10">
+    <div className="max-w-2xl mx-auto text-center relative z-10 bg-background">
       {/* Top divider */}
       <div className="w-12 h-px bg-gold/60 mx-auto mb-12" />
 
